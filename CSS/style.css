@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+    font-family: sans-serif;
+    background-color: rgb(210, 210, 210);
+}
+
+h1 {
+    font-size: 4rem;
+    text-shadow: 0 0 10px #000;
+}
+
+.piano {
+    display: flex;
+    /* border: 2px solid black; */
+    padding: 20px;
+    background-color: #03030343;
+    box-shadow: 0 0 10px #030303a4, inset 0 0 10px #030303a4;
+    justify-content: center;
+    align-items: end;
+    width: 52%;
+    height: 55vh;
+}
+
+.btns {
+    /* border: 2px solid black; */
+    width: 60px;
+    height: 300px;
+    display: flex;
+    justify-content: end;
+    align-items: start;
+    box-shadow: 0 0 10px #000, inset 0 0 10px #000;
+    transition: 0.3s;
+    background-color: white;
+}
+
+.btns:active{
+    transform: scale(0.95);
+}
+
+.small-btns {
+    /* border: 2px solid black; */
+    width: 20px;
+    height: 100px;
+    background-color: black;
+}
