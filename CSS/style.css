@@ -33,6 +33,7 @@ h1 {
     align-items: end;
     width: 52%;
     height: 55vh;
+    gap: 10px;
 }
 
 .btns {
@@ -42,7 +43,7 @@ h1 {
     display: flex;
     justify-content: end;
     align-items: start;
-    box-shadow: 0 0 10px #000, inset 0 0 10px #000;
+    box-shadow: 0 0 10px #000;
     transition: 0.3s;
     background-color: white;
 }
